@@ -69,7 +69,7 @@ label{
 }
 .banner_header_top_wthree {
     background: #000;
-    padding: 2em 0 1em 0;
+    padding: 1em 0 1em 0;
 }
 /* Rectangle Out */
 .hvr-rectangle-out {
@@ -252,7 +252,7 @@ nav.navbar.navbar-default {
 }
 .header-top_agileits {
     text-align: center;
-    margin: 2em auto 0;
+    /*margin: 0em auto 0;*/
     width: 54%;
 }
 /*-- banner --*/  
@@ -1729,7 +1729,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
         left: 12%;
     }
     .header-top_agileits {
-        margin: 2em auto 0;
+        margin: 1em auto 0;
         width: 65%;
     }
 }
@@ -2104,7 +2104,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
         background-color: #00acee;
     }
     .header-top_agileits {
-       margin: 1em auto 0;
+       margin: 0em auto 0;
     }
     .carousel-caption {
         min-height: 370px!important;
@@ -2126,7 +2126,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
         margin: 2em 0 3.3em 0;
     }
     .banner_header_top_wthree {
-        padding: 1em 0 0.5em 0;
+        padding: 0em 0 0.5em 0;
     }
     .navbar-default .navbar-nav > li > a {
         letter-spacing: 1px;
@@ -2548,5 +2548,120 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
         letter-spacing: 0px;
     }
  }
+.gallary_desc {
+  padding: 15px;
+  text-align: center;
+}
 
+.gallary_img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.gallary_container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.gallary_mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.gallary_cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.gallary_prev,
+.gallary_next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.gallary_next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.gallary_prev:hover,
+.gallary_next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.gallary_numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.gallary_caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.gallary_row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.gallary_column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.gallary_demo {
+  opacity: 0.8;
+}
+
+.gallary_active,
+.demo:hover {
+  opacity: 1;
+}
+
+.mission {
+-webkit-background-size: contain no-repeat;
+-moz-background-size: contain no-repeat;
+-o-background-size: contain no-repeat;
+background-size: contain no-repeat;
+}
+
+.mission1 {
+  margin: 1%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.video_column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.video_row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*-- //responsive media queries --*/
