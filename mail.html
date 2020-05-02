@@ -8,11 +8,19 @@
 </head>
 
 <body>
-  <form action="https://getsimpleform.com/messages?form_api_token=762b9b218d1c19cb47eb8552e0dd5910" method="post">
-    <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
-    <!-- all your input fields here.... -->
-    <input type='text' name='test' />
-    <input type='submit' value='Test form' />
-  </form>
+  <form action="https://formspree.io/mqkyzrja" method="POST">
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
 </body>
 </html>
